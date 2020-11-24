@@ -1,0 +1,6 @@
+print('--- CALCULADOR DE ALUGUEL ---')
+dia = int(input('Quantos dias durou? '))
+km = float(input('Quantos quilômetros rodados? '))
+total = (60 * dia) + (0.15 * km)
+print('-----')
+print(f'O total a ser pago será de R${total:.2f}.')
